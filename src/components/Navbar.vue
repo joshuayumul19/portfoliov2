@@ -11,7 +11,7 @@
 				</svg>
 			</button>
 			<div class="hidden w-full md:block md:w-auto" id="navbar-default">
-				<ul class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+				<ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 					<li v-for="list in navLists">
 						<a :href="list.href" class="block py-1 px-5 bg-white hover:bg-slate-200 rounded-md">{{ list.label }}</a>
 					</li>

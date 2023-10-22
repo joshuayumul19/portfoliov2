@@ -11,9 +11,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import {} from "@fortawesome/free-solid-svg-icons";
+import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 /* add icons to the library */
-library.add(faLinkedin, faGithub);
+library.add(faLinkedin, faGithub, faCircleDown);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
