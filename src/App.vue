@@ -1,8 +1,6 @@
 <template>
 	<Navbar />
-	<Layout>
-		<h1>Hello</h1>
-	</Layout>
+	<Layout> </Layout>
 </template>
 
 <script setup>
