@@ -86,7 +86,7 @@ const projects = [
 		name: "Portfolio V.2",
 		description: "Portfolio Version 2 is like an upgraded show of my web projects using Vue.js and Tailwind CSS. Vue.js helps make my portfolio more fun and interactive, while Tailwind CSS makes it look really cool and work well on phones too. It's a big step up for me in understanding how websites work. This version is my way of showing I'm keeping up with the latest tech trends. It's not just about my work but also about how I'm learning to make websites that look awesome and are easy to use.",
 		techStack: ["VueJS", "TailwindCSS", "SwiperJS", "EmailJS", "AOS"],
-		images: ["src/assets/images/portfoliov2-1.png", "src/assets/images/portfoliov2-2.png", "src/assets/images/portfoliov2-3.png", "src/assets/images/portfoliov2-4.png", "src/assets/images/portfoliov2-5.png", "src/assets/images/portfoliov2-6.png"],
+		images: ["src/assets/images/portfoliov2-1.png", "src/assets/images/portfoliov2-2.png", "src/assets/images/portfoliov2-3.png", "src/assets/images/portfoliov2-4.png", "src/assets/images/portfoliov2-5.png", "src/assets/images/portfoliov2-6.png", "src/assets/images/portfoliov2-7.png"],
 		liveSiteLink: "https://joshuayumul.netlify.app/",
 		githubLink: "https://github.com/joshuayumul19/portfoliov2",
 	},
