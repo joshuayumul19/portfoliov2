@@ -111,7 +111,7 @@ const submitForm = async () => {
 			message: senderMessage.value,
 		};
 
-		await emailjs.send("gmail_service_id", "emailTemplateId", templateParams);
+		await emailjs.send("gmail_service_id", "email_template_id", templateParams);
 
 		// Clear form input values
 		senderName.value = "";
