@@ -1,5 +1,5 @@
 <template>
-	<nav class="bg-white sticky top-0 z-40 md:shadow-none shadow py-10" :class="{ 'md:shadow': isScrolled }">
+	<nav class="bg-white sticky top-0 z-40 py-10" :class="{ shadow: isScrolled }">
 		<div class="flex flex-wrap items-center justify-center md:justify-between mx-auto max-w-[63rem] px-4">
 			<a href="#" class="flex items-center">
 				<span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Joshua</span>
