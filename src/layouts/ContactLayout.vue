@@ -102,9 +102,6 @@ const senderEmail = ref("");
 const senderMessage = ref("");
 let emailSentSuccess = ref();
 let errorMessage = ref("");
-const emailServiceId = import.meta.env.VITE_APP_EMAIL_SERVICE_ID;
-const emailTemplateId = import.meta.env.VITE_APP_EMAIL_TEMPLATE_ID;
-const emailApiKey = import.meta.env.VITE_APP_EMAIL_API_KEY;
 
 const submitForm = async () => {
 	try {
@@ -114,7 +111,7 @@ const submitForm = async () => {
 			message: senderMessage.value,
 		};
 
-		await emailjs.send(emailServiceId, emailTemplateId, templateParams);
+		await emailjs.send("gmail_service_id", "emailTemplateId", templateParams);
 
 		// Clear form input values
 		senderName.value = "";
@@ -137,7 +134,7 @@ const removeNotificationOnCLick = () => {
 	emailSentSuccess.value = undefined;
 };
 const initEmailJs = () => {
-	emailjs.init(emailApiKey);
+	emailjs.init("ik1k3s6Cr8oPlynTY");
 };
 
 onMounted(initEmailJs);
