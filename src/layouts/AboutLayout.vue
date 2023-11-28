@@ -5,7 +5,7 @@
 		<hr class="mt-5 mb-10" />
 		<div class="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-6 items-center" data-aos="fade-down">
 			<div>
-				<img src="profile-picture.jpg" alt="Profile Picture of Joshua Yumul" class="rounded-full mx-auto" width="300" />
+				<img src="../../public/profile-picture.jpg" alt="Profile Picture of Joshua Yumul" class="rounded-full mx-auto" width="300" />
 			</div>
 			<div>
 				<p id="about-description" class="leading-8">Hey, I'm Joshua Yumul! I'm a web developer and software engineer who thrives on <strong> learning new tech skills </strong>. I love exploring the digital world, coding websites, and crafting digital magic. <strong> Constantly learning is my thing </strong>—it's like unlocking superpowers to create awesome, user-friendly online experiences.</p>
