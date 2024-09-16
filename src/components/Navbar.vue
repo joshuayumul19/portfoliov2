@@ -10,7 +10,7 @@
 						<a :href="list.href" class="block py-1 px-5 bg-white hover:bg-slate-200 rounded-md">{{ list.label }}</a>
 					</li>
 					<li>
-						<a href="https://drive.google.com/file/d/1XGES8Zv-0LHTQ4Lqx8gmXfMQTXYGRptd/view?usp=sharing" target="_blank" class="block py-1 px-5 bg-white hover:bg-slate-200 rounded-md">
+						<a href="https://drive.google.com/file/d/1rjBmX5kCSjZDI8f5PVHIusQfvrhP9n7z/view?usp=sharing" target="_blank" class="block py-1 px-5 bg-white hover:bg-slate-200 rounded-md">
 							Resume
 							<font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
 						</a>
