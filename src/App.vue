@@ -2,6 +2,7 @@
 	<Navbar />
 	<Layout>
 		<HeroSection />
+		<Award />
 		<Project />
 		<About />
 		<Contact />
@@ -15,6 +16,7 @@ import { initFlowbite } from "flowbite";
 import Navbar from "./components/Navbar.vue";
 import Layout from "./components/Layout.vue";
 import HeroSection from "./components/HeroSection.vue";
+import Award from "./layouts/AwardsLayout.vue";
 import Project from "./layouts/ProjectsLayout.vue";
 import About from "./layouts/AboutLayout.vue";
 import Contact from "./layouts/ContactLayout.vue";

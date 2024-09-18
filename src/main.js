@@ -11,10 +11,10 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faAddressCard, faArrowDownLong, faArrowUpRightFromSquare, faBook, faBug, faCircleDown, faPaperPlane, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub, faHtml5, faCss3Alt, faSass, faBootstrap, faSquareJs, faVuejs, faReact, faFigma, faGitAlt } from "@fortawesome/free-brands-svg-icons";
+import { faAddressCard, faArrowDownLong, faArrowUpRightFromSquare, faBook, faBug, faCircleDown, faPaperPlane, faPhoneVolume, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub, faHtml5, faCss3Alt, faSass, faBootstrap, faSquareJs, faVuejs, faReact, faFigma, faGitAlt, faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
 /* add icons to the library */
-library.add(faLinkedin, faGithub, faCircleDown, faBook, faAddressCard, faPhoneVolume, faNewspaper, faArrowUpRightFromSquare, faHtml5, faCss3Alt, faSass, faBootstrap, faSquareJs, faVuejs, faReact, faFigma, faGitAlt, faBug, faArrowDownLong, faPaperPlane);
+library.add(faLinkedin, faGithub, faCircleDown, faBook, faAddressCard, faPhoneVolume, faNewspaper, faArrowUpRightFromSquare, faHtml5, faCss3Alt, faSass, faBootstrap, faSquareJs, faVuejs, faReact, faFigma, faGitAlt, faBug, faArrowDownLong, faPaperPlane, faNodeJs, faTrophy);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

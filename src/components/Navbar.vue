@@ -1,6 +1,6 @@
 <template>
 	<nav class="bg-white sticky top-0 z-40 py-10" :class="{ shadow: isScrolled }">
-		<div class="flex flex-wrap items-center justify-center md:justify-between mx-auto max-w-[63rem] px-4">
+		<div class="flex flex-wrap items-center justify-center md:justify-between mx-auto max-w-[65rem] px-4">
 			<a href="#" class="flex items-center">
 				<span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Joshua</span>
 			</a>
@@ -47,6 +47,16 @@ import { ref } from "vue";
 
 const isScrolled = ref(false);
 const navLists = [
+	{
+		label: "Experience",
+		href: "#award",
+		icon: "fa-solid fa-trophy",
+	},
+	{
+		label: "Awards",
+		href: "#award",
+		icon: "fa-solid fa-trophy",
+	},
 	{
 		label: "Projects",
 		href: "#projects",

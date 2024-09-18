@@ -5,10 +5,11 @@
 		<hr class="mt-5 mb-10" />
 		<div class="grid grid-cols-1 md:grid-cols-2 md:gap-0 gap-6 items-center" data-aos="fade-down">
 			<div>
-				<img src="/profile-picture.jpg" alt="Profile Picture of Joshua Yumul" class="rounded-full mx-auto" width="300" />
-			</div>
-			<div>
-				<p id="about-description" class="leading-8">Hey, I'm Joshua Yumul! I'm a web developer and software engineer who thrives on <strong> learning new tech skills </strong>. I love exploring the digital world, coding websites, and crafting digital magic. <strong> Constantly learning is my thing </strong>—it's like unlocking superpowers to create awesome, user-friendly online experiences.</p>
+				<p id="about-description" class="leading-8">
+					Hey, I'm Joshua Yumul! I'm a web developer and software engineer who thrives on
+					<strong> learning new tech skills </strong>. I love exploring the digital world, coding websites, and crafting digital magic. <strong> Constantly learning is my thing </strong>—it's like unlocking superpowers to create awesome, user-friendly online experiences.
+				</p>
+
 				<p class="my-5">Here are the few technology stacks I've been working with:</p>
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-2">
 					<p v-for="techStack in techStacks" class="text-gray-500">
@@ -21,6 +22,9 @@
 						{{ techStack.name }}
 					</p>
 				</div>
+			</div>
+			<div>
+				<img src="/profile-picture.jpg" alt="Profile Picture of Joshua Yumul" class="rounded-full mx-auto" width="300" />
 			</div>
 		</div>
 	</section>
@@ -57,12 +61,26 @@ const techStacks = [
 		name: "VueJS",
 		icon: "fa-vuejs",
 	},
-
+	{
+		name: "MongoDB",
+		icon: false,
+	},
+	{
+		name: "ExpressJS",
+		icon: false,
+	},
 	{
 		name: "ReactJS",
 		icon: "fa-react",
 	},
-
+	{
+		name: "NodeJS",
+		icon: "fa-node-js",
+	},
+	{
+		name: "Postman",
+		icon: false,
+	},
 	{
 		name: "NuxtJS",
 		icon: false,

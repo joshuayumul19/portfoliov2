@@ -3,10 +3,7 @@
 		<div class="h-screen flex items-center -mt-20">
 			<div>
 				<h1 class="font-bold lg:text-6xl md:text-5xl text-5xl md:text-left text-center tracking-wider">Hello there, I'm Joshua!</h1>
-				<p class="md:!leading-[3rem] lg:text-3xl md:text-2xl text-lg my-10 md:text-left text-center tracking-wide">
-					I am a front-end software engineer at
-					<a href="https://ph.linkedin.com/company/quickstrike-mnfg-phils-inc" target="_blank" rel="noopener noreferrer" class="text-blue-500"> <strong>QSTRIKE INNOVATION PHILS.,OPC.</strong> </a> Currently focused on building beautiful web interfaces and web applications.
-				</p>
+				<p class="md:!leading-[3rem] lg:text-3xl md:text-2xl text-lg my-10 md:text-left text-center tracking-wide">I am a passionate software professional driven by an enthusiasm for learning and a commitment to excellence.</p>
 				<div class="flex items-center gap-10 md:justify-start justify-center">
 					<a data-tooltip-target="linkedInProfile" href="https://www.linkedin.com/in/joshua-yumul-787518260/" target="_blank" rel="noopener noreferrer" class="p-2 hover:bg-slate-200 rounded" aria-label="LinkedIn Profile">
 						<font-awesome-icon icon="fa-brands fa-linkedin" size="2xl" />

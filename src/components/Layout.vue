@@ -1,5 +1,5 @@
 <template>
-	<main class="max-w-[63rem] px-4 mx-auto" aria-label="Main Content">
+	<main class="max-w-[65rem] px-4 mx-auto" aria-label="Main Content">
 		<slot></slot>
 	</main>
 
