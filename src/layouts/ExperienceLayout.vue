@@ -1,12 +1,12 @@
 <template>
-	<section aria-labelledby="award-content" role="region" aria-describedby="awards">
-		<p class="absolute -mt-36" id="award"></p>
-		<h2 class="text-xl font-semibold mb-3">Awards</h2>
+	<section aria-labelledby="experience-content" role="region" aria-describedby="experience">
+		<p class="absolute -mt-36" id="experience"></p>
+		<h2 class="text-xl font-semibold mb-3">Work Experience</h2>
 		<hr class="mt-5 mb-10" />
-		<Award />
+		<Experience />
 	</section>
 </template>
 
 <script setup>
-import Award from "../components/Award.vue";
+import Experience from "../components/Experience.vue";
 </script>

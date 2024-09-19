@@ -5,7 +5,9 @@
 				<span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Joshua</span>
 			</a>
 			<div class="hidden w-full md:block md:w-auto">
-				<ul class="flex flex-col p-4 md:p-0 mt-4 text-md border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-5 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+				<ul
+					class="flex flex-col p-4 md:p-0 mt-4 text-md border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-5 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+				>
 					<li v-for="list in navLists">
 						<a :href="list.href" class="block py-1 px-5 bg-white hover:bg-slate-200 rounded-md">{{ list.label }}</a>
 					</li>
@@ -49,7 +51,7 @@ const isScrolled = ref(false);
 const navLists = [
 	{
 		label: "Experience",
-		href: "#award",
+		href: "#experience",
 		icon: "fa-solid fa-trophy",
 	},
 	{
