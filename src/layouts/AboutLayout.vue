@@ -7,7 +7,8 @@
 			<div>
 				<p id="about-description" class="leading-8">
 					Hey, I'm Joshua Yumul! I'm a web developer and software engineer who thrives on
-					<strong> learning new tech skills </strong>. I love exploring the digital world, coding websites, and crafting digital magic. <strong> Constantly learning is my thing </strong>—it's like unlocking superpowers to create awesome, user-friendly online experiences.
+					<strong> learning new tech skills </strong>. I love exploring the digital world, coding websites, and crafting digital magic.
+					<strong> Constantly learning is my thing </strong>—it's like unlocking superpowers to create awesome, user-friendly online experiences.
 				</p>
 
 				<p class="my-5">Here are the few technology stacks I've been working with:</p>
@@ -85,10 +86,13 @@ const techStacks = [
 		name: "NuxtJS",
 		icon: false,
 	},
-
 	{
-		name: "AdobeXD",
-		icon: "fa-html5",
+		name: "ChakraUI",
+		icon: false,
+	},
+	{
+		name: "Adobe XD",
+		icon: false,
 	},
 
 	{
