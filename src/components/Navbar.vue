@@ -33,7 +33,7 @@
 				</a>
 			</li>
 			<li class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-				<a href="https://drive.google.com/file/d/1XGES8Zv-0LHTQ4Lqx8gmXfMQTXYGRptd/view?usp=sharing" target="_blank">
+				<a href="https://drive.google.com/file/d/1uSdAvKdaYj7mF6JR2IyLXBb51lSqwwtI/view?usp=sharing" target="_blank">
 					<div class="text-center group-hover:text-blue-600 dark:group-hover:text-blue-500">
 						<font-awesome-icon icon="fa-regular fa-newspaper" size="lg" />
 					</div>
