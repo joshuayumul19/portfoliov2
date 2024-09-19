@@ -22,8 +22,8 @@
 		</div>
 	</nav>
 
-	<nav class="fixed bottom-10 left-0 z-50 right-0 mx-auto w-[85%] h-16 block md:hidden">
-		<ul class="grid h-[4.5rem] max-w-lg grid-cols-4 mx-auto font-medium rounded-full bg-slate-50 shadow">
+	<nav class="fixed bottom-10 left-0 z-50 right-0 mx-auto w-[85%] h-35 block md:hidden">
+		<ul class="h-[8rem] max-w-lg mx-auto font-medium rounded-2xl bg-slate-50 shadow flex flex-wrap justify-center">
 			<li class="inline-flex rounded-full flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group" v-for="list in navLists">
 				<a :href="list.href">
 					<div class="text-center group-hover:text-blue-600 dark:group-hover:text-blue-500">
@@ -52,12 +52,12 @@ const navLists = [
 	{
 		label: "Experience",
 		href: "#experience",
-		icon: "fa-solid fa-trophy",
+		icon: "fa-solid fa-user-tie",
 	},
 	{
 		label: "Awards",
 		href: "#award",
-		icon: "fa-solid fa-trophy",
+		icon: "fa-solid fa-award",
 	},
 	{
 		label: "Projects",
