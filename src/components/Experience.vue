@@ -25,7 +25,7 @@
 const experiences = [
 	{
 		description:
-			"As a Associate Software Engineer at Qstrike Innovations PHILS.,OPC, I was responsible for designing, developing, testing, and maintaining high-quality front-end software solutions. I play a key role in the Customizer Project, ensuring that new features are implemented effectively and any bugs are promptly addressed. My expertise in user interface (UI) design and development allows me to create and convert mockups that align with the best user experience and coding practices.",
+			"As an Associate Software Engineer at Qstrike Innovations PHILS.,OPC, I was responsible for designing, developing, testing, and maintaining high-quality front-end software solutions. I play a key role in the Customizer Project, ensuring that new features are implemented effectively and any bugs are promptly addressed. My expertise in user interface (UI) design and development allows me to create and convert mockups that align with the best user experience and coding practices.",
 		duration: "August 2023 - September 2024",
 		companyName: "Qstrike Innovations PHILS.,OPC",
 		position: "Associate Software Engineer",
