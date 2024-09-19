@@ -61,7 +61,7 @@ const projects = [
 	{
 		name: "Portfolio V.2",
 		description:
-			"Portfolio Version 2 is like an upgraded show of my web projects using Vue.js and Tailwind CSS. Vue.js helps make my portfolio more fun and interactive, while Tailwind CSS makes it look really cool and work well on phones too. It's a big step up for me in understanding how websites work. This version is my way of showing I'm keeping up with the latest tech trends. It's not just about my work but also about how I'm learning to make websites that look awesome and are easy to use.",
+			"Portfolio Version 2 is like an upgraded show of my web projects using Vue.js and Tailwind CSS Vue.js.It helps make my portfolio more fun and interactive, while Tailwind CSS makes it look really cool and work well on phones too. It's a big step up for me in understanding how websites work. This version is my way of showing I'm keeping up with the latest tech trends. It's not just about my work but also about how I'm learning to make websites that look awesome and are easy to use.",
 		techStack: ["VueJS", "TailwindCSS", "SwiperJS", "EmailJS", "AOS", "Netlify"],
 		images: ["/portfoliov2-1.png", "/portfoliov2-2.png", "/portfoliov2-3.png", "/portfoliov2-4.png", "/portfoliov2-5.png", "/portfoliov2-6.png", "/portfoliov2-7.png"],
 		liveSiteLink: "https://joshuayumul.netlify.app/",
