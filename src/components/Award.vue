@@ -17,13 +17,12 @@
 </template>
 
 <script setup>
-const awards = [
-	{
-		title: "Most Outstanding Performance for Q2",
-		description: "Recipient of the Most Outstanding Performance award for Q2 2024 at Qstrike Innovations PHILS. OPC , this award recognizes exceptional individual contributions that significantly impacted team goals. This award highlights my consistent excellence in productivity, problem-solving and collaboration as an individual contributor.",
-		date: "August 2024",
-		imageSrc: "/outstanding-employee-award.jpg",
-		companyName: "Qstrike Innovations PHILS.,OPC",
-	},
-];
+import { ref, onMounted } from "vue";
+import data from "@/../data.json";
+
+const awards = ref([]);
+
+onMounted(() => {
+	awards.value = data.awards;
+});
 </script>
